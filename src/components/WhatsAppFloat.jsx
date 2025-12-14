@@ -3,9 +3,20 @@ export default function WhatsAppFloat() {
     <a
       href="https://wa.me/917420974851?text=Hi%20I%20have%20an%20enquiry"
       target="_blank"
-      className="fixed bottom-6 right-6 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-2xl shadow-lg hover:scale-110 transition z-50"
+      rel="noopener noreferrer"
+      className="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition z-50"
+      aria-label="Chat on WhatsApp"
     >
-      ☎
+      <svg
+        viewBox="0 0 32 32"
+        width="26"
+        height="26"
+        fill="white"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M16.02 3C9.4 3 4 8.4 4 15.02c0 2.65.87 5.1 2.34 7.08L4 29l7.08-2.34a11.94 11.94 0 005.94 1.56h.01C22.6 28.22 28 22.62 28 16c0-6.62-5.4-13-11.98-13zm0 22.01a9.96 9.96 0 01-5.08-1.4l-.36-.21-4.2 1.38 1.4-4.09-.23-.38a9.96 9.96 0 111.47 1.47 9.9 9.9 0 01-7.01 2.23z" />
+        <path d="M19.11 17.44c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.15-.42-2.19-1.34-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47-.16-.01-.34-.01-.52-.01-.18 0-.48.07-.73.34-.25.27-.96.93-.96 2.26 0 1.33.99 2.61 1.13 2.79.14.18 1.95 2.98 4.73 4.18.66.28 1.17.45 1.57.58.66.21 1.26.18 1.73.11.53-.08 1.6-.65 1.83-1.27.23-.62.23-1.15.16-1.27-.07-.11-.25-.18-.52-.32z" />
+      </svg>
     </a>
   );
 }
