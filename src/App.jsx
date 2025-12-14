@@ -6,6 +6,7 @@ import CalendlyCTA from "./components/CalendlyCTA";
 import ThankYou from "./components/ThankYou";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import ClientWork from "./components/ClientWork";
+import SalesLetter from "./components/SalesLetter";
 
 export default function App() {
   return (
@@ -16,7 +17,8 @@ export default function App() {
           element={
             <>
               <Hero />
-              <Letter />
+              <SalesLetter/>
+              {/* <Letter /> */}
               <Services />
               <ClientWork />
               <CalendlyCTA />

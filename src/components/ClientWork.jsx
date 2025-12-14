@@ -1,10 +1,10 @@
 import Reveal from "./Reveal";
 
 const projects = [
-  { name: "Acciojet", tone: "bg-slate-100" },
-  { name: "Inditronicsmedia", tone: "bg-slate-200" },
-  { name: "VijayAgencies", tone: "bg-slate-300" },
-  { name: "Fenice Energy", tone: "bg-slate-400 text-white" },
+  { name: "Acciojet", tone: "bg-slate-100" , url: "http://Acciojet.com"},
+  { name: "Inditronicsmedia", tone: "bg-slate-200", url: "http://Inditronicsmedia.com" },
+  { name: "VijayAgencies", tone: "bg-slate-300", url: "https://www.vijayagenciesjpr.com/" },
+  { name: "Fenice Energy", tone: "bg-slate-400 text-white" , url: "http://FeniceEnergy.com" },
 ];
 
 export default function ClientWork() {
@@ -31,11 +31,13 @@ export default function ClientWork() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {projects.map((project) => (
             <Reveal key={project.name}>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
               <div
                 className={`h-48 rounded-2xl flex items-center justify-center text-sm font-medium ${project.tone} transition hover:-translate-y-1 hover:shadow-lg`}
               >
                 {project.name}
               </div>
+              </a>
             </Reveal>
           ))}
         </div>
