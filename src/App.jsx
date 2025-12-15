@@ -7,6 +7,7 @@ import ThankYou from "./components/ThankYou";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import ClientWork from "./components/ClientWork";
 import SalesLetter from "./components/SalesLetter";
+import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
               {/* <Letter /> */}
               <Services />
               <ClientWork />
+              <Testimonials />
               <CalendlyCTA />
               <WhatsAppFloat />
             </>
