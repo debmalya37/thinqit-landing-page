@@ -16,10 +16,11 @@ export default function Hero() {
               ✅ Complete Website Solutions for B2B Companies
             </span>
 
+
             {/* Heading */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
               Get High Tickets Clients,
-              <span className="block text-blue-400 mt-2">
+              <span className="block text-white mt-2">
                 Without Increasing Ad spent
               </span>
             </h1>
