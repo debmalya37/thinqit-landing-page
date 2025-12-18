@@ -8,6 +8,7 @@ import WhatsAppFloat from "./components/WhatsAppFloat";
 import ClientWork from "./components/ClientWork";
 import SalesLetter from "./components/SalesLetter";
 import Testimonials from "./components/Testimonials";
+import MobileStickyCTA from "./components/MobileStickyCTA";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
               <ClientWork />
               <Testimonials />
               <CalendlyCTA />
+              <MobileStickyCTA />
               <WhatsAppFloat />
             </>
           }
