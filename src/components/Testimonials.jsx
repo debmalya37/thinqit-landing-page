@@ -3,46 +3,46 @@ import Reveal from "./Reveal";
 
 const testimonials = [
   {
-    name: "Aditya Verma",
-    role: "Founder, TechFlow",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    name: "Jatin Rawat",
+    role: "Founder, EdSteps",
+    image: "https://framerusercontent.com/images/PpD0LzNh42bC6MyJy8rJb0YQpo4.jpg?scale-down-to=512&width=640&height=640",
     content:
-      "We were struggling to convert traffic. ThinQiT completely overhauled our landing page and our conversion rate doubled in 2 weeks. Insane ROI.",
+      "ThinQiT brought our vision for EdSteps to life — and then some. She understood our brand and purpose from day one, turned ideas into a clean, student-friendly design, and delivered a site that looks amazing and performs. Super professional, detail-oriented, and great to work with!",
   },
   {
-    name: "Sarah Jenkins",
-    role: "CMO, Bloom SaaS",
-    image: "https://randomuser.me/api/portraits/women/44.jpg",
+    name: "Keshav Shinde",
+    role: "Co-Founder, Inditronics",
+    image: "/images/t1.jpg",
     content:
-      "The design team is next level. They didn't just make it look pretty; they understood our customer psychology. Highly recommended.",
+      "Pranoti is a talented Wix developer with a sharp eye for design. She was responsive, efficient, and great with feedback. Highly recommend her for anyone needing a reliable web expert!",
   },
   {
-    name: "Rajiv Mehta",
-    role: "Director, Urban Scale",
-    image: "https://randomuser.me/api/portraits/men/86.jpg",
+    name: "Rutuja",
+    role: "Founder, TheSeriousPeople",
+    image: "/images/rutuja.jpg",
     content:
-      "Professional, fast, and no-nonsense. The code quality is top-notch and the site loads instantly. Best agency experience I've had.",
+      "ThinQiT and team have helped me with a creative website that matches my business vision and also developed it within the timeline.",
   },
   {
-    name: "Elena Rodriguez",
-    role: "Founder, Creativ",
-    image: "https://randomuser.me/api/portraits/women/65.jpg",
+    name: "Arthur Tangaro",
+    role: "Solar Energy Consultant",
+    image: "/images/t2.jpg",
     content:
-      "I was skeptical about the 'high ticket' promise, but the rebranding helped us close a $50k deal within a month of launch.",
+      "Pranoti was a fantastic remote collaborator — reliable, detail-oriented, and highly self-driven. She made the process smooth with her clear communication and strong work ethic. A true team player. Highly recommend!",
   },
   {
-    name: "David Chen",
-    role: "Product Lead, Apex",
-    image: "https://randomuser.me/api/portraits/men/22.jpg",
+    name: "T. Jain",
+    role: "Digital Consultant",
+    image: "https://framerusercontent.com/images/ETgoVdeITLLIYCHTFNeVuZDMyQY.png?scale-down-to=512",
     content:
-      "Finally, an agency that understands B2B. No fluff, just results. The SEO strategy they implemented is already paying off.",
+      "Working with ThinQiT felt like having an in-house team. They listened, understood our goals, and delivered a website that’s not only beautiful but also aligned perfectly with our brand. Super easy communication throughout!",
   },
   {
-    name: "Priya Sharma",
-    role: "CEO, Luma Health",
-    image: "https://randomuser.me/api/portraits/women/28.jpg",
+    name: "Vaibhav Harale",
+    role: "Consultant, Abhyasiksha",
+    image: "/images/t3.jpg",
     content:
-      "Their mobile-first approach changed everything for us. Our bounce rate dropped by 40% immediately after the redesign.",
+      "The ThinQiT team supported us in designing and developing the Study Room app, delivering a smooth and efficient experience from start to finish.",
   },
 ];
 

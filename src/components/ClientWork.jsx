@@ -12,7 +12,7 @@ const projects = [
 
     category: "E-Commerce / CRO",
 
-    image: "/images/1.png",
+    image: "/images/acciojet.png",
 
     objective: "The old site was cluttered, had poor mobile UX, and confused buyers with too much text.",
 
